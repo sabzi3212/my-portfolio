@@ -15,7 +15,7 @@ const Skills = () => {
     return (
         <div name='skills' className='bg-[#0a192f] text-gray-300 w-full h-screen'>
             <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
-                <div>
+                <div className='text-center'>
                     <p className='text-4xl inline font-bold border-b-4 border-orange-400'>Skills</p>
                     <p className='py-4'>These are the technology I've worked with</p>
                 </div>
@@ -51,10 +51,6 @@ const Skills = () => {
                     <div className='shodow-md shadow-[#040c16] hover:scale-110 duration-500'>
                         <img className='w-20 mx-auto' src={github} alt="github" />
                         <p className='my-4'>Github</p>
-                    </div>
-                    <div className='shodow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                        <img className='w-20 mx-auto' src={tailwind} alt="tailwind" />
-                        <p className='my-4'>Tailwind</p>
                     </div>
                 </div>
             </div>
